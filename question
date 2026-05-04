@@ -1,0 +1,74 @@
+#phone=+977+123456789
+#output=+977123456789
+#p='+977+1234567891'
+#c=p[0:4]+p[5:]
+#print(c)
+
+#make='student id card'
+#print(make.upper().center(30))
+
+#make='''full name   : laxman kunwar
+#age   : 29
+#class   : 10th
+#college   : softwarica college
+#blood group   : 0+'''
+#print(make.title())
+
+#or if we want to allign : with each other then
+#make='student id card'
+#print(make.upper().center(30))
+#print('Full Name'.ljust(15), ':', 'laxman kunwar')
+#print('Age'.ljust(15), ':', '29')
+#print('Class'.ljust(15), ':', '10th')
+#print('Blood Group'.ljust(15), ':', 'Softwarica College')
+#print('Blood Group'.ljust(15), ':', 'O+')
+
+#a customer buy 3 item at rs 111.33 each.the store offer a 10% discount on the total purchase.write a python programme
+#that calculate and display the subtotal,discount amount and final total price after the discount is applied
+#format all amount to 2 decimal place.
+#a=111.33
+#b=111.33
+#c=111.33
+#sub_total=a+b+c
+#discount_amount=(sub_total)*0.1
+#final_price=sub_total-discount_amount
+#print(f'{sub_total:.2f}')
+#print(f'{discount_amount:.2f}')
+#print(f'{final_price:.2f}')
+
+#write a program that takes two number and print the result of all 7 arthimetic operation(+,-,/,//,*,**)
+
+#a=2
+#b=2
+#print(f'the sum of {a} and {b} is {a+b}')
+#print(f'the sub of {a} and {b} is {a-b}')
+#print(f'the div of {a} and {b} is {a/b}')
+#print(f'the value of {a} and {b} is {a//b}')
+#print(f'the product of {a} and {b} is {a*b}')
+#print(f'the square of {a} and {b} is {a**b}')
+
+#a hotel charge rs1200.88 per night.a traveller stays for 7 nights and get an 18% discount on the total stay.write a 
+#python programm that calculate and display the total stay cost,discount amount and final amount to be paid after 
+#discount format all amount to 2 decimal place
+
+charge=1200.88
+for_7night=1200.88*7
+discount_amount=(for_7night)*(18/100)
+final_price=for_7night-discount_amount
+print(f'the charge for 1 day is {charge:.2f}')
+print(f'the charge for 7 night is {for_7night:.2f}')
+print(f'the discount amount is {discount_amount:.2f}')
+print(f'the final price after you get discount is{final_price:.2f}')
+
+
+
+
+
+
+
+
+   
+   
+   
+   
+

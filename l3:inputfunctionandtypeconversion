@@ -1,0 +1,13 @@
+#num_int=123
+#num_str="123"
+#print("data type of num_int:",type(num_int))
+#print("data type of num_str before typecasting:",type(num_str))
+#num_str=int(num_str)
+#print("data type of num_str after typecasting:",type(num_str))
+#num_sum=num_int+num_str
+#print("sum of num_sum is:",num_sum)
+#print("data type of num_sum is:",type(num_sum))
+
+#a=10.2
+#print("the data type of a is float:",isinstance(a,float))
+

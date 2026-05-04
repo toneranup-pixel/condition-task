@@ -1,0 +1,54 @@
+#without if else
+#balance = 5000
+#amount=int(input("withdrawl amount:"))
+#balance=balance-amount
+#print(f'new balance:{balance}')
+
+
+#balance=5000
+#amount=int(input("withdrawl amount:"))
+#if amount <=0:
+    #print("enter a valid amount:")
+#elif amount > balance:
+    #print("insufficient fund:")
+#else:
+    #balance-=amount
+    #print(f'new balance:{balance}')        
+
+#username="yubraj"
+#password="123"
+#entered_username="yubraj"
+#entered_pass="123"
+
+#if entered_username==username and entered_pass == password:
+   # print("login sucessfully")
+#if entered_username!=username:
+    #print("username not found")
+
+#else:
+    #("wrong password")    
+
+#a=45
+#if a>45:
+    #print("a+")
+#elif a<45:
+    #print("b+")
+#elif a==45:
+     #print("a") 
+#else:
+    #print("fail")         
+
+a=45
+if a>=90:
+    print("a+")
+if a>=75:
+    print("a")
+if a>=50:
+    print("b+")
+
+if a>=45:
+    print(b)   
+else:
+    print("fail")               
+
+

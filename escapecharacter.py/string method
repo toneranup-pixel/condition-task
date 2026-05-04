@@ -1,0 +1,108 @@
+#length(len)
+a='yubraj'
+print(len(a))
+
+#count:-if you want to count how many yubraj is there on program then we use count string
+a='yubraj yubraj my name is yubraj'
+print(a.count('yubraj'))
+
+#upper
+a='yubraj'
+print(a.upper())
+
+#lower
+a='yubRAJ'
+print(a.lower())
+
+#rstrip:-if you want to remove something on rhs the we can use r strip
+#note: we can only remove the things that are on rhs not in lhs
+a='yubraj////'
+print(a.rstrip('/'))
+#if there is //yubraj//// then we cant omit the things on lhs using rstrip
+a='//yubraj////'
+print(a.rstrip('/'))
+
+#lstrip
+a='////yubraj'
+print(a.lstrip('/'))
+
+#capitalize
+a='welcome to python'
+print(a.capitalize())
+
+#strip
+a='//yubraj///'
+print(a.strip('/'))
+
+#replace
+a='yubraj'
+print(a.replace('y','a'))
+
+#split
+a='yubraj && !!!!'
+print(a.split())
+
+#center
+a='welcome to the party'
+print(a.center(40))
+
+#title
+a='yubraj is my name'
+print(a.title())
+
+#islower:-if the statement is in lower case then it will return true value otherwise it will return false
+a='how was your day'
+print(a.islower())
+
+#isupper
+a='how was your day'
+print(a.isupper())
+
+#isprintable:-if the statement is in printable form then it will return the true value otherwise false
+a='welcome to nepal'
+print(a.isprintable())
+#if
+a='welcome to nepal\n'
+print(a.isprintable())
+
+#isalnum:-true if a to z or ATOZ or 0to9
+a='welc0metonepal'
+print(a.isalnum())
+
+#isalpha:-true if atoz or ATOZ but not 0 to 9
+a='welcometonepal'
+print(a.isalpha())
+#if
+a='welc0metonepaL'
+print(a.isalpha())
+
+#istitle:-to if first letter of each statement is in capital form
+a='welcome to nepal'
+print(a.istitle())
+
+#endswith
+a='how was your day'
+print(a.endswith('day'))
+
+#startswith
+a='how was your day'
+print(a.startswith('how'))
+
+#isspace
+a="    "
+print(a.isspace())
+
+#user input
+age = input('what is your age?')
+print(age)
+
+#formatstring
+name=input('what is your name:')
+age=input('what is your age:')
+city=input('where is your home:')
+data='mom say he is {} and he is {} years old and he is from {}'.format(name,age,city)
+print(data)
+
+#split
+student_record='ram,14,2000'
+print(student_record.split(','))

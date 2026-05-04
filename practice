@@ -1,0 +1,8 @@
+#replacesstring
+name='ram'
+corrected_data=name.replace('r','R')
+print('corrected_data')
+#maketrans
+name='ram'
+corrected_data=name.maketrans('rm','RM')
+print(name.translate(corrected_data))

@@ -1,0 +1,26 @@
+#name='age'
+#print(name.startswith('a'))
+#print(name.find('a'))
+
+#
+#import string
+#string=string.punctuation
+#print(string)
+
+#question
+#a=113.33
+#b=113.33
+#c=113.33
+#total=(a+b+c)*3
+#discount=0.1*total
+#final_total=total-discount
+#print(total)
+#print(f'(discount:.2f)')
+#print(final_total)
+
+#password='nameisyubraj '
+#is_pass=len(password)>=8
+#is_space=" " in password
+#print(f'the password contain space: {is_space}')
+
+#print(f'the password contain at least 8 characters: {is_pass}')

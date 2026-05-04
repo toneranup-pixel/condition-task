@@ -1,0 +1,5 @@
+print('hello\tram')
+print('hello\rram')
+print('hello\bram')
+print('hello\ram')
+print(r'c:user\tello\ram')
