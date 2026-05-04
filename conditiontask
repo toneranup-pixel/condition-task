@@ -1,0 +1,203 @@
+#1 write a programme to check whether the given number is between 100 or not.
+num=int(input("enter a number:"))
+if num<100:
+    print("number is between 100 ")
+else:
+    print("number is not between 100")    
+
+#2 check whether the user input number is even or odd and display it to user
+num=int(input("enter a number:"))
+if num%2==0:
+    print("the number is even")
+else:
+    print("the number is odd")   
+#3 write a program that ask the user for a number in the range of 1 to 12
+# the program should display the corresponding month where,
+# 1=january,2=feburary,3=march,4=april,5=may,6=june,7=july,8=august,9=sepetember,10=october,11=november,
+# 12=december
+month=int(input("enter a number from 1 to 12:"))
+month_number={1:"janurary",2:"feburary",3:"march",4:"april",5:"may",6:"june",7:"july",8:"august",9:"sepetember",10:"october",11:"november",12:"december"}
+if 1<= month <=12:
+    print(month_number[month])
+
+#4 a school has the following rules for grading system:
+#below 25 -f,25 to 45 -e,45 to 50 -d,50 to 60 -c,60 to 80 -b,above 80 -a
+# ask user to enter mark and the print the corresponding grade
+mark=int(input("enter your mark:"))
+if mark<25:
+    print("f")
+elif mark>=25 and mark<45:
+    print("e")   
+elif mark>=45 and mark<50:
+    print("d")
+elif mark>=50 and mark<60:
+    print("c")
+elif mark>=60 and mark<=80:
+    print("b")
+elif mark>80:
+    print("a") 
+
+#5    write a program to check whether a number id divisible by 7 or not
+num=int(input("enter a number:"))
+if num%7==0:
+    print("the number is divisible by 7")
+else:
+    print("number is not divisible by 7")   
+          
+#6 write a program to accept two number and mathmatical operator and perform operator and perform operation
+num1=int(input("enter first number:"))
+num2=int(input("enter second number:"))
+operator=(input("enter operator:"))
+if operator=="+":
+    print(num1+num2)
+
+#7 write a python programme to check car loan eligibility:
+# salary>=50,000 and credit >=700."eligible",otherwise:"not eligible"
+salary=int(input("enter your salary:"))
+credit=int(input("enter your credit:"))
+if salary>=50000 and credit>=700:
+    print("eligible")
+else:
+    print("not eligible")
+
+#8 write a python programme to that take integer input n.from the given number,check if it is divisible
+# by 5,print"buzz".if it is divisible only by 3,print"fizz.".finally if the number is not divisible by 3 or 5,print number itself
+num=int(input("enter a number:"))
+if num%5==0:
+    print("buzz".capitalize())
+elif num%3==0:
+    print("fizz".capitalize())
+else:
+    print(3,5)
+
+#9 write a python programme that takes a character input and checks whether it is a vowel or constant
+char=input("enter a character:")
+if (char in "aeiou"):
+    print("it is vowel")
+elif (char in "bcdfghjklmnpqrstwxyz"):
+    print("it is constant")
+
+#10 write a python programme to input marks and determine the grade based on the following conditions:
+# 90-100:a
+# 80-89:b
+# 70-79:c
+# below 70:fail
+mark=int(input("enter your mark:"))
+if mark>=100 and mark<=100:
+    print("a")
+elif mark>=80 and mark<=89:
+    print("b")
+elif mark>=70 and mark<=79:
+    print("c")
+elif mark<70:
+    print("fail")
+#11 write a python programto categorize a person age:
+# age < 13:child
+# 13<=age<=19:teenager
+# age>19:adult
+age=int(input("enter age:"))
+if age<13:
+    print("child")
+elif age>=13 and age<=19:
+    print("teenager")
+elif age>19:
+    print("adult")
+
+#12 write a python programme to check if a given character is uppercase,lowercase or a digit
+a=input("enter a character or digit:")
+if a.isupper():
+    print("the given character is in uppercase")
+elif a.islower():
+    print("the given character is in lowercase")
+elif a.isdigit():
+     print("it is digit")
+
+#13 write a python programme that takes a color as input ("red","yellow","green") and output the corresponding 
+# action("stop","get ready","go")
+color=input("enter red or yellow or green color:")
+if color == "red":
+    print("stop".capitalize())
+elif color == "yellow":
+    print("get ready".title())
+elif color == "green":
+    print("go".capitalize())
+
+#14 write a python programme to check eligiblity for a job based on age and experience:
+# age>18 and experience >= 2 years:eligible
+# otherwise:not eligible
+age=int(input("enter your age:"))
+experience=int(input("enter your experience:"))
+if age>18 and experience >= 2:
+    print("eligible")
+else:
+    print("not eligible")
+
+#15 write a python programme to give advice based on the temperature
+# temperature>30°C:"it's hot,stay hydrated!"
+# temperature between 15-30°C:"enjoy weather!"
+# temperature < 15°C:"it's cold,wear warm clothes!"
+temperature=input("enter the degree of temperature:")
+if temperature>"30°C":
+    print("it's hot,stay hydrated!")
+elif temperature>"15°C" and temperature <"30°C":
+  print("enjoy weather!")
+elif temperature<"15°C":
+    print("it's cold,wear warm clothes!")
+
+#16 write a python programme that takes a menu option ("pizza","burger","pasta")and prints its price
+# pizza $10,burger $7,pasta $8
+order=input("enter a dish you want to eat pizza burger pasta:")
+if order == "pizza":
+    print("the price for pizza is $10")
+elif order == "burger":
+    print("the price of burger is $7")
+elif order == "pasta":
+    print("the price of pasta is $8")
+
+    #17 write a python programme to select players based on height:
+    # height >=6ft:selected
+    # height <6ft:not selected
+    players=int(input("enter your height in ft:"))
+    if "height">=6:
+        print("selected")
+    elif "height"<6:
+        print("not selected")
+
+
+
+
+#18 write a python programme to check if a person is eligible to watch a movie based on their age:
+# age >=18:allowed
+# age<18:not allowed
+age=int(input("enter your age:"))
+if age >= 18:
+    print("you are allowed to watch movie")
+elif age<18:
+    print("you are not allowed to watch movie")
+
+#19 write a program to check login credentials:
+# username:"admin",password:"password123"
+# if corrrect pin "acess granted";otherwise,print"access denied".
+username=input("enter your username:")
+password=input("enter your password:")
+if username == "admin" and password == "password123":
+    print("access granted".title())
+else:
+    print("access denied".title())
+
+#20 write a python programme that takes a month number (1-12) and output the corresponding season:
+# 12,1,2:"winter",3,4,5:"spring",6,7,8:"summer",9,10,11:"autumn"
+month=int(input("enter month number:"))
+month_number={1:"winter",2:"winter",3:"spring",4:"spring",5:"spring",6:"summer",7:"summer",8:"summer",9:"autumn",10:"autumn",11:"autumn",12:"winter"}
+if 1<= month <=12:
+    print(month_number[month])
+
+
+
+
+
+
+
+
+
+   
